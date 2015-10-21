@@ -1,0 +1,28 @@
+{
+  "name": "swiftson",
+  "version": "0.1.0",
+  "description": "Create sensible json from ISO15022 messages",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prepublish": "tsc lib/index.ts --target es6",
+    "pretest": "tsc test/*Test.ts --module commonjs",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m081072/swiftson.git"
+  },
+  "keywords": [
+    "swift",
+    "15022"
+  ],
+  "author": "Mike Hogan <me@mikehogan.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m081072/swiftson/issues"
+  },
+  "homepage": "https://github.com/m081072/swiftson#readme"
+}
